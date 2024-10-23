@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikael's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #0099ff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #FFD700;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Center the image in the about section */
+        #about {
+            text-align: center;
+        }
+
+        #about img {
+            width: 150px; /* Adjust width if needed */
+            height: auto;
+            margin: 20px 0; /* Add margin for spacing */
+        }
+
+        section h2 {
+            border-bottom: 2px solid #04a3ff;
+            padding-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+
+        /* Styles for hobbies section */
+        .hobby-item {
+            display: flex;
+            align-items: center; /* Center images and text vertically */
+            margin-bottom: 20px; /* Space between hobby items */
+        }
+
+        .hobby-item img {
+            width: 140px; /* Increased size by 100% (originally 70px) */
+            height: 140px; /* Set height to match width for round shape */
+            border-radius: 50%; /* Make the images round */
+            margin-right: 15px; /* Space between image and text */
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mikael</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <img src="Default_pfp.svg.png" alt="Mikael's profile picture" />
+            <h2>About Me</h2>
+            <p>I am a high school student in Stella Maris Gading Serpong.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li class="hobby-item">
+                    <img src="gettyimages-1338075303.webp" alt="Sleeping icon" />
+                    <div>
+                        <h3>Sleeping</h3>
+                        <p>Sleeping is nice.</p>
+                    </div>
+                </li>
+                <li class="hobby-item">
+                    <img src="Blood_Angel.webp" alt="Warhammer icon" />
+                    <div>
+                        <h3>Warhammer</h3>
+                        <p>I like collecting Warhammer miniatures.</p>
+                    </div>
+                </li>
+                <li class="hobby-item">
+                    <img src="images.jfif" alt="Model Aircraft icon" />
+                    <div>
+                        <h3>Model Aircrafts</h3>
+                        <p>I like collecting and building model aircrafts.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mikael. All rights reserved.</p>
+    </footer>
+</body>
+</html>
